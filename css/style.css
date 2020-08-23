@@ -702,7 +702,7 @@ footer .footer .widget .content form .error {
 }
 
 /*مقاس 350 بيكسل*/
-@media(max-width: 350px) and (min-width: 320px) {
+@media(max-width: 400px) and (min-width: 320px) {
     section.banner .overlay .banner-text button {
         margin: 10px 0;
         margin-right: 22px;

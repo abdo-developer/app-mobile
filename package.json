@@ -1,0 +1,20 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "animate.css": "^4.1.0",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.7.0",
+    "gulp-css-flipper": "^1.0.2",
+    "merge-stream": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

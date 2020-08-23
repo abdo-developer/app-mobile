@@ -1,0 +1,709 @@
+@font-face {
+    font-family: ar-font;
+    src: url(../fonts/JFFlatregular.ttf);
+}
+
+body {
+    font-family: ar-font;
+    direction: rtl;
+}
+
+section.banner {
+    background-image: url(../images/bg-1.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: -3;
+    position: relative;
+}
+
+section.banner .overlay {
+    background-color: rgba(175, 100, 2, 0.9);
+    z-index: -2;
+    position: relative;
+    padding-top: 90px;
+}
+
+section.banner .overlay .images {
+    position: absolute;
+    bottom: -250px;
+    right: 0;
+    z-index: -1;
+}
+
+section.banner .overlay .images img {
+    max-width: 100%;
+}
+
+section.banner .overlay .app-icon img {
+    margin-top: 120px;
+    margin-bottom: 50px;
+}
+
+section.banner .overlay .banner-text h2 {
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+section.banner .overlay .banner-text p {
+    font-size: 20px;
+    line-height: 32px;
+    color: whitesmoke;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+section.banner .overlay .banner-text button {
+    margin: 40px 0;
+    background-color: white;
+    line-height: 50px;
+}
+
+section.banner .overlay .banner-text button img {
+    width: 50px;
+    margin-top: -20px;
+}
+
+section.banner .overlay .banner-text button i {
+    font-size: 50px;
+}
+
+section.banner .overlay .banner-text button p {
+    font-size: 14px;
+    font-family: ar-font;
+    color: black;
+    line-height: 25px;
+    display: inline-block;
+}
+
+section.banner .overlay .banner-text button p span {
+    font-size: 18px;
+}
+
+section.banner .overlay .banner-text button:last-child {
+    margin-right: 20px;
+}
+
+/*تنسيق مميزات التطبيق*/
+
+section.feature {
+    background-color: #ffffff;
+    padding: 80px 0;
+}
+
+section.feature .features {
+    margin-top: 90px;
+}
+
+section.feature .features .media {
+    margin-bottom: 70px;
+}
+
+section.feature .features .media-body h5 {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+section.feature .features .media-body p {
+    font-size: 15px;
+    line-height: 20px;
+    color: rgb(22, 22, 22);
+    margin-top: 5px;
+    text-align: justify;
+}
+
+section.feature .features i {
+    color: #ffffff;
+    background-color: rgba(255, 0, 0, 0.900);
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    border-radius: 2px;
+    text-align: center;
+    margin-left: 10px;
+}
+
+section.feature .mobile-img img {
+    width: 75%;
+    margin: 0 auto;
+    display: block;
+}
+
+/*تنسيق إضافات مميزة*/
+
+section.option {
+    padding: 70px 0 0;
+    background-color: #caccd18e;
+    z-index: -2;
+    position: relative;
+}
+
+section.option .images {
+    position: absolute;
+    bottom: -150px;
+    z-index: -1;
+}
+
+section.option .options {
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+section.option .options .media {
+    margin-bottom: 60px;
+}
+
+section.option .options .media h5 {
+    font-size: 24px;
+    line-height: 40px;
+    color: #141414;
+}
+
+section.option .options .media p {
+    font-size: 15px;
+    line-height: 25px;
+    color: #151515;
+}
+
+/*تنسيق معرض الصور*/
+
+section.slider {
+    background-color: white;
+    padding: 40px 0;
+}
+
+section.slider .title {
+    margin-bottom: 60px;
+}
+
+section.slider .title h3 {
+    font-size: 36px;
+}
+
+section.slider .carousel-inner {
+    width: 60%;
+    margin: 0 auto;
+}
+
+section.slider .carousel-indicators {
+    padding: 0;
+    bottom: -60px;
+}
+
+section.slider .carousel-indicators li {
+    width: 0;
+    height: 5px;
+    border-bottom: 1px solid orangered;
+}
+
+section.slider .carousel-indicators li.active {
+    background-color: orangered;
+}
+
+/*تنسيق أسهم التنقل*/
+
+section.slider .carousel-control-prev, section.slider .carousel-control-next {
+    width: 70px;
+    height: 70px;
+    border: 1px solid orangered;
+    border-radius: 50%;
+    color: orangered;
+    opacity: 1;
+    margin-top: 130px;
+}
+
+section.faq {
+    background-image: url(../images/bg-2.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    margin-top: 75px;
+}
+
+section.faq .overlay {
+    padding: 70px 0 80px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+section.faq .overlay .title {
+    margin-bottom: 60px;
+}
+
+section.faq .overlay .title h3 {
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+section.faq .overlay .card {
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 25px;
+}
+
+section.faq .overlay .card .card-header {
+    border-bottom: 0;
+    background-color: transparent;
+}
+
+section.faq .overlay .card .card-header h5 a {
+    font-size: 18px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    position: relative;
+}
+
+section.faq .overlay .card .card-block {
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 0 1.25rem 1.25rem;
+}
+
+section.faq .overlay .card .card-header h5 a i {
+    position: absolute;
+    top: 2px;
+    left: 5px;
+}
+
+section.faq .overlay .card .card-header h5 a.collapsed[aria-expanded="false"] i:before {
+    content: "\f107";
+}
+
+/*تنسيق ذيل الصفحة*/
+
+footer {
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+footer .footer .widget .title h4 {
+    font-size: 24px;
+    color: white;
+    line-height: 80px;
+}
+
+footer .footer .widget .title {
+    margin-bottom: 35px;
+    border-bottom: 2px solid #272727;
+    position: relative;
+}
+
+footer .footer .widget .title::after {
+    background-color: orangered;
+    width: 90px;
+    height: 2px;
+    content: "";
+    position: absolute;
+    bottom: -2px;
+    right: 0;
+    display: inline-block;
+}
+
+footer .footer .widget .content p {
+    font-size: 18px;
+    line-height: 25px;
+    text-align: justify;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+footer .footer .widget .content ul.social-links li a {
+    width: 50px;
+    height: 50px;
+    display: block;
+    border-radius: 50%;
+    background-color: #353638;
+    color: whitesmoke;
+    text-align: center;
+    line-height: 50px;
+}
+
+footer .footer .widget .content ul.social-links li a:hover {
+    background-color: orangered;
+}
+
+footer .footer .widget .content ul.social-links {
+    padding: 0;
+    margin-top: 50px;
+    text-align: center;
+}
+
+footer .footer .widget .content ul.social-links li {
+    margin-right: 10px;
+}
+
+/*تنسيق التغريدات*/
+
+footer .footer .widget .content ul.twitters {
+    padding: 0;
+}
+
+footer .footer .widget .content ul.twitters li {
+    font-size: 16px;
+    color: #757474;
+    line-height: 24px;
+    text-align: justify;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgba(128, 128, 128, 0.5);
+    /*
+    text-indent: 20px;
+    */
+    padding-right: 5px;
+    position: relative;
+}
+
+footer .footer .widget .content ul.twitters li:last-of-type {
+    margin-bottom: 0;
+    border-bottom: 0;
+}
+
+footer .footer .widget .content ul.twitters li::before {
+    content: "\f099";
+    font-family: fontAwesome;
+    /*
+    position: absolute;
+    top: 5px;
+    right: -15px;
+    */
+    line-height: 1em;
+    color: orangered;
+}
+
+/*تنسيق القائمة البريدية*/
+
+footer .footer .widget .content form input {
+    font-size: 14px;
+    color: #757474;
+    line-height: 25px;
+    background-color: #2c2b2b;
+    font-family: ar-font;
+    border-radius: 0;
+    border-color: transparent;
+    margin-bottom: 15px;
+}
+
+footer .footer .widget .content form button {
+    font-size: 15px;
+    font-family: ar-font;
+    color: #ffffff;
+    line-height: 25px;
+    background-color: orangered;
+    border-radius: 0;
+    border-color: transparent;
+}
+
+/* تنسيق الحقوق محفوظة */
+
+footer .copyright {
+    border-top: 2px solid #262626;
+    overflow-x: hidden;
+}
+
+footer .copyright p {
+    font-size: 16px;
+    line-height: 70px;
+    color: #565656;
+    text-align: center;
+}
+
+footer .copydesing {
+    border-top: 2px solid #262626;
+    overflow-x: hidden;
+}
+
+footer .copydesing p {
+    font-size: 16px;
+    line-height: 70px;
+    color: white;
+    text-align: center;
+}
+
+footer .copydesing a {
+    text-decoration: none;
+    color: wheat;
+    font-size: 16px;
+}
+
+footer .copydesing a:hover {
+    color: orangered;
+    transition: all 0.5s ease;
+}
+
+/*تنسيق دخل المستخدم ـ خطأ ـ */
+
+footer .footer .widget .content form .error {
+    color: red;
+    display: block;
+}
+
+/* ضبط الصفحة عند مقاس 960 بكسل*/
+
+@media (max-width: 960px) and (min-width: 540px) {
+    section.banner .overlay .banner-text button {
+        margin-right: 15px;
+    }
+    section.feature .features .media-body h5 {
+        font-size: 20px;
+        line-height: 15px;
+        /* color: rgb(22, 22, 22); */
+        margin-top: -20px;
+        /* text-align: justify; */
+        margin-right: -30px;
+    }
+    section.feature .features {
+        margin-top: -15px;
+    }
+    section.feature .features i {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    section.feature {
+        padding: 90px 0 0;
+    }
+    section.option .images img {
+        width: 105%;
+    }
+    section.option .images {
+        position: absolute;
+        bottom: 100px;
+        right: -30px;
+    }
+    section.option .options .media {
+        margin-bottom: 30px;
+    }
+    section.option .options {
+        margin-top: 20px;
+        margin-bottom: 80px;
+    }
+    section.option {
+        padding: 80px 0 0;
+    }
+    section.slider .carousel-control-prev, section.slider .carousel-control-next {
+        margin-top: 65px;
+    }
+    footer .footer .widget .content ul.social-links li a {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+    section.banner .overlay .banner-text button {
+        margin: 20px 0;
+        margin-right: 16px;
+    }
+}
+
+/* ضبط عند مقاس 720 بكسل*/
+
+@media (max-width: 720px) {
+    section.feature .mobile-img img {
+        width: 50%;
+        margin-bottom: 40px;
+        margin-top: -25px;
+    }
+    section.feature .features .media-body h5 {
+        font-size: 25px;
+        line-height: 15px;
+        margin-top: -20px;
+        text-align: center;
+    }
+    section.option .images img {
+        width: 60%;
+        margin-right: 115px;
+    }
+    section.option .options {
+        margin-bottom: 600px;
+    }
+    section.slider .carousel-control-prev, section.slider .carousel-control-next {
+        margin-top: 40px;
+    }
+    section.banner .overlay .banner-text button {
+        margin-right: 40px;
+    }
+}
+
+/*ضبط الصفحة مع شاشات الصغيرة*/
+
+@media (max-width: 767px) and (min-width: 576px) {
+    section.banner .overlay .images {
+        bottom: -500px;
+        right: 20%;
+    }
+    section.banner .overlay .app-icon img {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+    section.banner .overlay .banner-text {
+        margin-bottom: 350px;
+    }
+    section.banner .overlay .banner-text button {
+        padding: .5rem 1rem;
+        line-height: 40px;
+    }
+    section.banner .overlay .banner-text button img {
+        width: 40px;
+    }
+    section.banner .overlay .banner-text button i {
+        font-size: 40px;
+    }
+}
+
+/* الأجهزة الصغيرة */
+
+@media (max-width: 575px) {
+    section.banner .overlay .images {
+        bottom: -500px;
+        right: 5%;
+        left: 5%;
+    }
+    section.banner .overlay .banner-text {
+        margin-bottom: 350px;
+        text-align: center;
+    }
+    section.banner .overlay .app-icon img {
+        margin: 0 auto 30px;
+        display: block;
+    }
+    section.option .images {
+        bottom: -400px;
+    }
+    section.option .options {
+        margin-bottom: 300px;
+    }
+}
+
+/*مقاسات 540 بيكسل*/
+
+@media (max-width: 540px) {
+    section.option .images img {
+        width: 35%;
+        margin-right: 205px;
+        margin-bottom: 414px;
+    }
+    section.feature .mobile-img img {
+        width: 40%;
+    }
+    section.option {
+        padding: 20px 0 0;
+    }
+}
+
+/*مقاس 320 بيكسل*/
+
+@media (max-width: 320px) and (min-width: 250px) {
+    section.banner .overlay .banner-text button {
+        margin-right: 20px;
+        margin-bottom: -15px;
+    }
+    section.banner .overlay .images img {
+        max-width: 90%;
+    }
+    section.feature .features {
+        margin-top: 10px;
+    }
+    section.feature .mobile-img img {
+        width: 60%;
+        margin-bottom: -40px;
+    }
+    section.feature .features .media-body h5 {
+        font-size: 20px;
+    }
+    section.feature .features i {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    section.option .options .media h5 {
+        font-size: 20px;
+        text-align: center;
+    }
+    section.option .options .media img {
+        width: 20%;
+    }
+    section.option .options .media p {
+        font-size: 14px;
+        text-align: center;
+    }
+    section.option .images img {
+        width: 55%;
+        margin-right: 75px;
+        margin-bottom: 450px;
+    }
+    section.option .options .media {
+        margin-bottom: 25px;
+    }
+    section.slider .title h3 {
+        font-size: 24px;
+    }
+    section.slider .carousel-control-prev, section.slider .carousel-control-next {
+        margin-top: 25px;
+    }
+    section.slider .carousel-control-prev, section.slider .carousel-control-next {
+        width: 35px;
+        height: 35px;
+    }
+    section.faq .overlay .title h3 {
+        font-size: 25px;
+    }
+    footer .footer .widget .content p {
+        font-size: 16px;
+    }
+}
+
+/* شاشات 250 بيكسل*/
+
+@media (max-width: 250px) {
+    section.banner .overlay .banner-text button {
+        width: 95%;
+    }
+    section.banner .overlay .images img {
+        max-width: 85%;
+        margin-bottom: 235px;
+    }
+    section.banner .overlay .banner-text button, section.banner .overlay .banner-text button:last-child {
+        margin-right: 5px;
+    }
+    section.banner .overlay .banner-text h2 {
+        font-size: 25px;
+    }
+    section.banner .overlay .banner-text p {
+        font-size: 18px;
+    }
+    section.feature .features .media-body p {
+        font-size: 14px;
+        text-align: center;
+    }
+    section.option .options .media h5 {
+        font-size: 16px;
+    }
+    section.option .images img {
+        width: 65%;
+        margin-right: 40px;
+        margin-bottom: 455px;
+    }
+    section.slider .carousel-control-prev, section.slider .carousel-control-next {
+        width: 25px;
+        height: 25px;
+        margin-top: 15px;
+    }
+    .fa-2x {
+        font-size: 1em;
+    }
+    section.faq .overlay .title h3 {
+        font-size: 20px;
+    }
+    footer .footer .widget .content ul.social-links li a {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    footer .copyright p {
+        font-size: 15px;
+    }
+    section.slider .title h3 {
+        font-size: 20px;
+    }
+}
